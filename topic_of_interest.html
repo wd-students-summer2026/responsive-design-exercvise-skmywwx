@@ -1,0 +1,67 @@
+<!-- place your HTML code here -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script type="text/javascript" src="js/jquery-4.0.0.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <title>
+      Weixuan Wang
+    </title>
+    <!-- Media query for narrow browser width -->
+      <link
+       rel="stylesheet"
+      media="only screen and (max-width: 480px)"
+      href="css/mobile.css"
+      />
+
+    <!-- Media query for medium browser width -->
+      <link
+        rel="stylesheet"
+        media="only screen and (min-width: 481px) and (max-width: 960px)"
+        href="css/tablet.css"
+      />
+
+    <!-- Media query for full browser width -->
+      <link
+        rel="stylesheet"
+        media="only screen and (min-width: 961px)"
+        href="css/desktop.css"
+      />
+
+      <!-- Prevent smartphones from scaling the page by default -->
+        <meta name="viewport" content="initial-scale=1" />
+  </head>
+  <body>
+    <div class="container">
+      <header>Header</header>
+      <nav class="column1" id="left-nav">
+        <ul>
+          <li><a href="index.html">Home Page</a></li>  
+        </ul>
+      </nav>
+      <main class="column2" id="main-content">
+        <h1>Topic of interest</h1>
+        <p> Welcome!!</p>
+        <img id="HungryFace" src="Images/HungryFace.jpg" alt="Image of a drooling hungry face" width="400">
+        <button>Now I'm eating!</button>
+        <p>
+          Recently, I'm trying to learn the recipes for multiple dishes.
+        </p> 
+        <article class="CurryCooking"> 
+          <h2>Curried potatoes</h2>
+          <p>Its required materials include: potatoes, carrots, onions, and chicken leg</p>
+          <img id="Curry" src="Images/CurryPrep.jpg" alt="Image of materials required to cook curry" width="200"/> 
+        </article>
+      </main>
+      <aside class="column3" id="right-rail">
+        <p>Apart from curried potatoes, I'm looking forward to learning other recipes! </p>
+        <h2>Stewed beef brisket with tomato</h2>
+        <h2>Scallion oil noodles</h2>
+        <h2>Egg pancake</h2>
+      </aside>
+    <footer>Footer</footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+/*Reference: Responsive layout examples */
+.container{
+    width:681px;
+    grid-template-columns: 1fr  1fr; 
+    grid-template-areas:
+    "header     header"
+    "left-nav   main-content"
+    "right-rail right-rail"
+    "footer     footer";
+}

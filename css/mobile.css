@@ -1,0 +1,11 @@
+/* Reference: Responsive design layout examples on course website */
+.container{
+    width: 480px;
+    grid-template-columns: 1fr; 
+    grid-template-areas:
+    "header"
+    "left-nav"   
+    "main-content"   
+    "right-rail"
+    "footer";
+}

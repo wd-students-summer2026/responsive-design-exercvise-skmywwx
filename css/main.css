@@ -1,0 +1,171 @@
+/* place your CSS code here */
+body {
+  background-color: #cfe0e8;
+}
+
+h1 {
+  color: #3b3a30; /* brown color from W3Schools*/
+  background-color:cornflowerblue;
+  font-family:Courier, sans-serif; 
+  font-size: 30px; 
+  text-align: center;
+}
+
+h2 {
+  color: #3b3a30; /* brown color from W3Schools*/
+  background-color:#84aabd;
+  font-family:Courier, sans-serif; 
+  font-size: 22px;
+}
+
+h3 {
+  color: #3b3a30; /* brown color from W3Schools*/
+  background-color:cornflowerblue;
+  font-family:Courier, sans-serif; 
+}
+
+p {
+  font-family: verdana;
+  font-size: 15px; 
+}
+
+/* link styling */
+a:link {
+  color: rgb(41, 93, 190);
+  background-color: none;
+  text-decoration: none;
+}
+
+a:visited {
+    color:rgb(166, 84, 55);
+   /* text-decoration-line: underline;*/
+}
+
+a:hover {
+  background-color: lightgreen;
+  text-decoration: underline;
+  border-style: solid;
+  border-color:#3b3a30;
+}
+
+a:active {
+  background-color:khaki;
+  text-decoration: underline;
+  border-style: none;
+} 
+
+/* section styling */
+section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-style: dotted solid;
+    border-width: 5px;
+    border-color:rgba(100, 148, 237, 0.517);
+}
+
+section#my_background{
+    background-color:#c0ded9;
+}
+
+section#my_background h2{
+    border-bottom-style:dotted;
+    border-top-style: dotted;
+    border-width: 3px;
+}
+
+section#my_interests{
+    background-color:#eaece5;
+}
+section#my_interests h2{
+    border-bottom-style: dotted;
+    border-top-style: dotted;
+    border-width: 3px;
+}
+
+img#Curry {
+  margin-left: 25px;
+}
+
+/* styling for UX design page*/
+/* Code reference: W3Schools https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp */
+
+.wireframes {
+  background-color: #add0e1;
+  max-width: 320px;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.wireframes img {
+  padding: 10px;
+}
+
+/* Reference: W3Schools */
+
+/* Reference: Responsive design layout examples on course website */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* center the container within the page */
+.container{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  background-color:#ffffff46;
+}
+
+header,
+footer{
+  background-color:darkgray;
+}
+
+header{
+  grid-area: header;
+}
+
+footer{
+  grid-area: footer;
+}
+
+main{
+  grid-area: main-content;
+}
+
+nav{
+  grid-area: left-nav;
+}
+
+aside{
+  grid-area: right-rail;
+}
+
+/* Reference: https://www.tutorialspoint.com/article/how-we-can-put-three-divisions-div-side-by-side-in-html*/
+/*
+.container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  text-align: center;;
+  } */
+
+/*Reference: "CSS Layout" from course website */
+/*
+  .container {
+  display: flex;
+  flex-direction: row; 
+  gap: 1rem; 
+  }
+
+.column1, .column2, .column3 { 
+  flex-grow: 1; 
+  background-color:burlywood;
+}
+*/
+
